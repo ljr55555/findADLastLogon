@@ -1,0 +1,9 @@
+strADDomain = 'example.com'
+strLDAPUsername = 'serviceaccount@example.com'
+strLDAPPassword = 'Password4ServiceAccount'
+strSearchBase='dc=example,dc=com'
+strFilter = '(samaccountname=lisa)'											# Report on specific ID
+#strFilter = '{&(objectCategory=person)(|(sAMAccountName=lisa)(sAMAccountName=scott)(sAMAccountName=anya)))'		# Report on list of specific IDs
+#strFilter = '(samaccountname=l*)'											# Report on IDs starting with a string
+#strFilter = '(&(objectCategory=person)(displayName=Rushworth*))'							# Report on accounts where display name starts with string
+#strFilter = '(&(objectCategory=person)(manager=CN=Rushworth\, Lisa,OU=ResourceUsers,DC=example,DC=com))'		# Report on IDs owned by Lisa
